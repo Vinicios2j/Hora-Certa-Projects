@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hora Certa Projetos • Sites, Landing Pages e Hospedagem Premium</title>
+  <link rel="shortcut icon" href="IconHr.png" type="image/x-icon">
+
+  <!-- Ícones (outline/solid) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+   <!-- HEADER -->
+<header class="hc-header">
+  <div class="hc-nav-container">
+    <div class="hc-logo">
+      <span class="hc-logo-main">HORA CERTA</span>
+      <span class="hc-logo-sub">Projetos</span>
+    </div>
+
+    <!-- NAV DESKTOP -->
+    <nav class="hc-nav-links">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#ganha-seguidores">Ganha Seguidores</a>
+      <a href="#hospedagem">Hospedagem</a>
+      <a href="#planos-sites">Planos de Sites</a>
+      <a href="#orcamento">Orçamento</a>
+      <a href="#contato" class="hc-nav-cta">Contato</a>
+    </nav>
+
+    <!-- MENU HAMBURGUER 3 PONTINHAS - MOBILE -->
+    <button class="hc-menu-toggle" id="menuToggle" aria-label="Abrir Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <!-- MENU MOBILE FULLSCREEN -->
+  <nav class="hc-mobile-nav" id="mobileNav">
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#ganha-seguidores">Ganha Seguidores</a>
+    <a href="#hospedagem">Hospedagem</a>
+    <a href="#planos-sites">Planos de Sites</a>
+    <a href="#orcamento">Orçamento</a>
+    <a href="#contato" class="hc-nav-cta">Contato</a>
+  </nav>
+</header>
+
+
+  <main>
+    <!-- HERO -->
+    <section class="hc-hero" id="topo">
+      <div class="hc-hero-text hc-reveal">
+        <div class="hc-hero-badges">
+          <div class="hc-hero-badge">
+            <span class="hc-dot-live"></span>
+            Estrutura premium para negócios reais
+          </div>
+          <div class="hc-hero-badge">
+            <i class="fa-regular fa-gem"></i>
+            Assinaturas de hospedagem gerenciada
+          </div>
+        </div>
+
+        <h1>
+          Criação de
+          <span class="hc-highlight">sites, landing pages e bots</span>
+          com cara de empresa grande.
+        </h1>
+
+        <p class="hc-hero-sub">
+          A mesma atenção aos detalhes da Hora Certa Store aplicada à sua
+          presença digital. Visual premium, velocidade, automações no WhatsApp
+          e hospedagem estável em planos sob medida.
+        </p>
+
+        <div class="hc-hero-actions">
+          <button class="hc-btn-primary" id="btnHeroOrcamento">
+            Quero um orçamento completo
+            <i class="fa-solid fa-bolt"></i>
+          </button>
+
+          <button class="hc-btn-secondary" id="btnHeroPortfolio">
+            Ver tudo o que fazemos
+            <i class="fa-regular fa-eye"></i>
+          </button>
+        </div>
+
+        <div class="hc-hero-stats">
+          <div>
+            <strong>Presença certa</strong>
+            Sites pensados para transmitir confiança, não só “ficar bonito”.
+          </div>
+          <div>
+            <strong>Foco em resultado</strong>
+            Estrutura para receber tráfego pago e orgânico desde o início.
+          </div>
+          <div>
+            <strong>Suporte direto</strong>
+            Atendimento comigo, sem burocracia e sem robô.
+          </div>
+        </div>
+      </div>
+
+      <aside class="hc-hero-card hc-reveal">
+        <div class="hc-hero-card-header">
+          <div class="hc-pill">Pacote: Lançamento Rápido</div>
+          <div class="hc-price-tag">
+            <span>Landing + Bot + Hospedagem</span>
+          </div>
+        </div>
+
+        <h3>Perfeito para quem precisa começar a vender ainda esse mês.</h3>
+        <p>
+          Criamos a landing page, configuramos seu domínio, integramos o
+          WhatsApp, preparamos o pixel e deixamos tudo pronto para você abrir
+          os anúncios.
+        </p>
+
+        <div class="hc-hero-card-chips">
+          <span class="hc-chip">Página de alta conversão</span>
+          <span class="hc-chip">Pixel / Tag configurados</span>
+          <span class="hc-chip">WhatsApp com mensagem pronta</span>
+          <span class="hc-chip">Hospedagem premium</span>
+        </div>
+
+        <div class="hc-hero-card-footer">
+          <div class="hc-hero-status">
+            <span class="hc-status-dot"></span>
+            Vagas limitadas por mês para manter qualidade.
+          </div>
+          <button class="hc-link-inline" id="btnHeroCard">
+            Falar sobre esse pacote
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </div>
+      </aside>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="hc-section" id="sobre">
+      <div class="hc-section-header hc-reveal">
+        <span class="hc-section-kicker">sobre a hora certa projetos</span>
+        <h2 class="hc-section-title">
+          O braço digital da Hora Certa voltado para quem quer fazer do jeito certo.
+        </h2>
+        <p class="hc-section-sub">
+          A mesma visão de construção de marca da Hora Certa Store aplicada
+          para outros negócios: site bem feito, comunicação clara,
+          automações que economizam tempo e uma base sólida para crescer.
+        </p>
+      </div>
+
+      <div class="hc-about-grid">
+        <div class="hc-about-card hc-reveal">
+          <h3>O que entregamos de verdade</h3>
+          <p>
+            Mais do que “só um site”, entregamos estrutura: domínio, hospedagem,
+            integrações, WhatsApp pronto para receber clientes, páginas que
+            explicam bem o que você faz e tornam a decisão do cliente mais fácil.
+          </p>
+          <ul class="hc-list">
+            <li>Planejamento da estrutura (sessões certas, sem excesso).</li>
+            <li>Layout premium, alinhado ao posicionamento da sua marca.</li>
+            <li>Texto otimizado para clareza e conversão.</li>
+            <li>Configuração técnica (domínio, SSL, hospedagem, tags).</li>
+          </ul>
+        </div>
+
+        <div class="hc-about-card hc-reveal">
+          <h3>Para quem isso faz sentido</h3>
+          <p>
+            Funciona muito bem para pequenas empresas que querem transmitir
+            segurança logo no primeiro contato.
+          </p>
+          <ul class="hc-list">
+            <li>Lojas físicas que querem vender mais pelo digital.</li>
+            <li>Profissionais liberais (advogados, dentistas, consultores).</li>
+            <li>Prestadores de serviço (barbearias, salões, estéticas, oficinas).</li>
+            <li>Quem está pronto para investir em tráfego pago.</li>
+          </ul>
+        </div>
+
+        <div class="hc-about-card hc-reveal">
+          <h3>Como trabalhamos</h3>
+          <p>
+            Comunication direta, sem enrolação. Um briefing enxuto, alinhamento
+            rápido e entregas que você consegue usar e entender no dia a dia.
+          </p>
+          <ul class="hc-list">
+            <li>Contato direto via WhatsApp.</li>
+            <li>Envio de prévia antes de publicar.</li>
+            <li>Pequenos ajustes já inclusos na entrega.</li>
+            <li>Possibilidade de manutenção contínua por assinatura.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS PRINCIPAIS -->
+    <section class="hc-section" id="servicos">
+      <div class="hc-section-header hc-reveal">
+        <span class="hc-section-kicker">serviços</span>
+        <h2 class="hc-section-title">Tudo o que sua presença digital precisa num lugar só.</h2>
+        <p class="hc-section-sub">
+          Da primeira landing page à estrutura completa com bots, e-mail
+          profissional, páginas de suporte e área de contato inteligente.
+        </p>
+      </div>
+
+      <div class="hc-services-grid">
+        <!-- Criação de Landing Pages -->
+        <article class="hc-service-card hc-reveal">
+          <div class="hc-service-icon">
+            <i class="fa-regular fa-rectangle-list"></i>
+          </div>
+          <h3>Landing Pages de Alta Conversão</h3>
+          <p>
+            Páginas únicas focadas em uma oferta, perfeitas para campanhas de
+            tráfego pago ou lançamentos pontuais.
+          </p>
+          <ul class="hc-service-list">
+            <li>Layout pensado para guiar o usuário até a ação principal.</li>
+            <li>Seções só com o que importa para vender.</li>
+            <li>Ideal para testar ofertas, produtos e serviços.</li>
+          </ul>
+        </article>
+
+        <!-- Sites Institucionais -->
+        <article class="hc-service-card hc-reveal">
+          <div class="hc-service-icon">
+            <i class="fa-regular fa-window-maximize"></i>
+          </div>
+          <h3>Sites Profissionais</h3>
+          <p>
+            Estruturas com várias páginas para apresentar serviços, equipe,
+            depoimentos, perguntas frequentes e muito mais.
+          </p>
+          <ul class="hc-service-list">
+            <li>Home, Sobre, Serviços, Contato e outras sob medida.</li>
+            <li>Responsivo e pensado para mobile.</li>
+            <li>Base pronta para SEO e crescimento orgânico.</li>
+          </ul>
+        </article>
+
+        <!-- E-commerce / Catálogo -->
+        <article class="hc-service-card hc-reveal">
+          <div class="hc-service-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <h3>Páginas de Catálogo / Vitrine</h3>
+          <p>
+            Estruturas de catálogo ou vitrine para quem ainda não vai ter
+            um e-commerce completo, mas já quer mostrar produtos e coleções.
+          </p>
+          <ul class="hc-service-list">
+            <li>Listagem organizada por categorias.</li>
+            <li>Integração com WhatsApp para pedidos.</li>
+            <li>Ideal para testes antes de um e-commerce completo.</li>
+          </ul>
+        </article>
+
+        <!-- Automação -->
+        <article class="hc-service-card hc-reveal">
+          <div class="hc-service-icon">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <h3>Bots e Automações</h3>
+          <p>
+            Fluxos que atendem seu cliente enquanto você está ocupado.
+          </p>
+          <ul class="hc-service-list">
+            <li>Recebimento de leads direto no WhatsApp.</li>
+            <li>Qualificação básica (nome, interesse, orçamento).</li>
+            <li>Atendimento inicial sem perder oportunidades.</li>
+          </ul>
+        </article>
+
+        <!-- Manutenção -->
+        <article class="hc-service-card hc-reveal">
+          <div class="hc-service-icon">
+            <i class="fa-regular fa-life-ring"></i>
+          </div>
+          <h3>Manutenção Mensal</h3>
+          <p>
+            Atualizações, ajustes e pequenos incrementos constantes sem
+            precisar “recomeçar” o projeto a cada mudança.
+          </p>
+          <ul class="hc-service-list">
+            <li>Correção de textos, links e seções.</li>
+            <li>Ajustes de layout quando necessário.</li>
+            <li>Revisão periódica de velocidade e erros.</li>
+          </ul>
+        </article>
+
+        <!-- Identidade Visual -->
+        <article class="hc-service-card hc-reveal">
+          <div class="hc-service-icon">
+            <i class="fa-regular fa-pen-to-square"></i>
+          </div>
+          <h3>Identidade Visual para o Digital</h3>
+          <p>
+            Organização da sua identidade no ambiente digital: cores, fontes,
+            elementos e como isso se aplica no site.
+          </p>
+          <ul class="hc-service-list">
+            <li>Paleta de cores alinhada à sua marca.</li>
+            <li>Tipografia coerente e legível.</li>
+            <li>Aplicação em botões, títulos e destaques.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- AUTOMAÇÃO WHATSAPP / BOTS -->
+    <section class="hc-section hc-section-alt" id="automacao">
+      <div class="hc-section-header hc-reveal">
+        <span class="hc-section-kicker">whatsapp & bots</span>
+        <h2 class="hc-section-title">Deixa o WhatsApp fazer o trabalho inicial por você.</h2>
+        <p class="hc-section-sub">
+          Enquanto você atende quem está fechando, o bot filtra, responde
+          dúvidas básicas e organiza os contatos que estão chegando.
+        </p>
+      </div>
+
+      <div class="hc-bots-grid">
+        <div class="hc-bot-card hc-reveal">
+          <h3>O que o bot pode fazer por você</h3>
+          <ul class="hc-list">
+            <li>Receber novas mensagens com resposta automática elegante.</li>
+            <li>Coletar nome, interesse e faixa de orçamento.</li>
+            <li>Encaminhar os contatos mais quentes para você atender.</li>
+            <li>Enviar links importantes (cardápio, catálogo, página de serviços).</li>
+          </ul>
+        </div>
+
+        <div class="hc-bot-card hc-reveal">
+          <h3>Exemplos de uso</h3>
+          <ul class="hc-list">
+            <li>Barbearias com fila de atendimento no WhatsApp.</li>
+            <li>Lojas que divulgam produtos nos stories e Reels.</li>
+            <li>Prestadores de serviços que recebem muitos “Oi, tudo bem?” por dia.</li>
+            <li>Profissionais que querem mostrar organização logo no primeiro contato.</li>
+          </ul>
+        </div>
+
+        <div class="hc-bot-card hc-reveal">
+          <h3>Integração com o site</h3>
+          <p>
+            O bot conversa com o que está no seu site: a pessoa entra, se
+            interessou, clica no WhatsApp e continua um fluxo que já foi
+            pensado para ela.
+          </p>
+          <p class="hc-note">
+            A ideia é que tudo trabalhe junto: site, bot, tráfego e sua forma
+            de atendimento.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="hc-section hc-section-alt" id="ganha-seguidores">
+  <div class="hc-section-header hc-reveal">
+    <span class="hc-section-kicker">Crescimento Acelerado</span>
+    <h2 class="hc-section-title">A ferramenta certa para dominar o Instagram.</h2>
+    <p class="hc-section-sub">
+      Chega de comprar bots que destroem seu engajamento. Nossa ferramenta converte pessoas reais e interessadas no seu nicho.
+    </p>
+  </div>
+
+  <div class="hc-about-grid">
+    <div class="hc-about-card hc-reveal">
+      <h3>Seguidores Reais em Dias</h3>
+      <p>Aumente sua audiência com pessoas de verdade que interagem com seu conteúdo. Nada de contas fakes ou automações baratas.</p>
+    </div>
+
+    <div class="hc-about-card hc-reveal">
+      <h3>"Roube" a Audiência do Concorrente</h3>
+      <p>Já pensou em atrair exatamente quem segue seus concorrentes? Agora é a hora certa de trazer esse público para o seu perfil.</p>
+    </div>
+
+    <div class="hc-about-card hc-reveal">
+      <h3>Conversão de Verdade</h3>
+      <p>Nossa tecnologia filtra e atrai perfis qualificados, transformando seguidores em clientes potenciais para o seu negócio.</p>
+    </div>
+  </div>
+
+  <div style="text-align: center; margin-top: 40px;">
+    <button class="hc-btn-primary" id="btnSeguidores">
+      Quero a ferramenta agora
+      <i class="fa-solid fa-rocket"></i>
+    </button>
+  </div>
+</section>
+
+    <!-- HOSPEDAGEM & ASSINATURAS -->
+    <section class="hc-section" id="hospedagem">
+      <div class="hc-section-header hc-reveal">
+        <span class="hc-section-kicker">hospedagem & assinaturas</span>
+        <h2 class="hc-section-title">
+          Assinaturas de hospedagem para você nunca mais se preocupar com servidor.
+        </h2>
+        <p class="hc-section-sub">
+          Planos pensados para estágios diferentes de negócio. Todos com
+          foco em estabilidade, SSL e suporte quando algo foge do controle.
+        </p>
+      </div>
+
+      <!-- Toggle Mês/Ano (visualmente só, lógica depois) -->
+      <div class="hc-billing-toggle hc-reveal">
+        <span>Faturamento:</span>
+        <button class="hc-toggle-btn hc-toggle-btn--active" data-billing="mensal">
+          Mensal
+        </button>
+        <button class="hc-toggle-btn" data-billing="anual">
+          Anual (desconto)
+        </button>
+      </div>
+
+      <div class="hc-hosting-grid">
+        <!-- STANDARD -->
+        <article class="hc-hosting-card hc-reveal" data-plan-type="standard">
+          <div class="hc-hosting-header">
+            <h3>Standard</h3>
+            <span class="hc-hosting-tag">Entrada</span>
+          </div>
+
+          <p class="hc-hosting-sub">
+            Ideal para quem está começando com 1 projeto e quer tudo bem
+            organizado desde o início.
+          </p>
+
+<div class="hc-hosting-price"
+     data-price-mensal="39"
+     data-price-anual="29">
+  <span class="hc-hosting-value">R$ 39</span>
+  <span class="hc-hosting-cycle">/ mês</span>
+</div>
+
+          <ul class="hc-hosting-list">
+            <li>Suporta <strong>1 projeto</strong> ativo.</li>
+            <li>Até <strong>1000 MB</strong> de espaço.</li>
+            <li>SSL configurado e renovado.</li>
+            <li>Monitoramento básico de uptime.</li>
+            <li>1 ajuste simples por mês.</li>
+          </ul>
+
+          <button class="hc-btn-hosting" data-plan="Standard">
+            Quero esse plano
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </article>
+
+        <!-- PROFESSIONAL -->
+        <article class="hc-hosting-card hc-reveal hc-hosting-card--highlight" data-plan-type="professional">
+          <div class="hc-hosting-header">
+            <h3>Professional</h3>
+            <span class="hc-hosting-tag hc-hosting-tag--highlight">Mais escolhido</span>
+          </div>
+
+          <p class="hc-hosting-sub">
+            Para quem tem mais de uma frente de negócio ou quer separar bem
+            projetos diferentes.
+          </p>
+
+<div class="hc-hosting-price"
+     data-price-mensal="69"
+     data-price-anual="55">
+  <span class="hc-hosting-value">R$ 69</span>
+  <span class="hc-hosting-cycle">/ mês</span>
+</div>
+
+          <ul class="hc-hosting-list">
+            <li>Suporta <strong>2 projetos</strong> ativos.</li>
+            <li>Até <strong>2000 MB</strong> de espaço total.</li>
+            <li>SSL + domínio configurados.</li>
+            <li>Backups recorrentes.</li>
+            <li>Até 2 ajustes simples por mês.</li>
+          </ul>
+
+          <button class="hc-btn-hosting" data-plan="Professional">
+            Quero esse plano
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </article>
+
+        <!-- ADVANCED -->
+        <article class="hc-hosting-card hc-reveal" data-plan-type="advanced">
+          <div class="hc-hosting-header">
+            <h3>Advanced</h3>
+            <span class="hc-hosting-tag">Para quem está crescendo</span>
+          </div>
+
+          <p class="hc-hosting-sub">
+            Para quem já tem uma base de projetos e precisa de espaço e
+            flexibilidade sem se preocupar com limite de MB.
+          </p>
+
+<div class="hc-hosting-price"
+     data-price-mensal="149"
+     data-price-anual="129">
+  <span class="hc-hosting-value">R$ 149</span>
+  <span class="hc-hosting-cycle">/ mês</span>
+</div>
+
+
+          <ul class="hc-hosting-list">
+            <li>Suporta até <strong>7 projetos</strong> ativos.</li>
+            <li><strong>MB ilimitado</strong> dentro do uso justo.</li>
+            <li>Backups ampliados e mais frequentes.</li>
+            <li>Prioridade em suporte técnico.</li>
+            <li>Pequenas melhorias incluídas mês a mês.</li>
+          </ul>
+
+          <button class="hc-btn-hosting" data-plan="Advanced">
+            Quero esse plano
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </article>
+
+        <!-- EXTREME -->
+        <article class="hc-hosting-card hc-reveal" data-plan-type="extreme">
+          <div class="hc-hosting-header">
+            <h3>Extreme</h3>
+            <span class="hc-hosting-tag">Ilimitado</span>
+          </div>
+
+          <p class="hc-hosting-sub">
+            Para quem quer simplesmente não se preocupar com número de
+            projetos e espaço, mantendo tudo sob o mesmo guarda-chuva.
+          </p>
+
+<div class="hc-hosting-price"
+     data-price-mensal="299"
+     data-price-anual="249">
+  <span class="hc-hosting-value">R$ 299</span>
+  <span class="hc-hosting-cycle">/ mês</span>
+</div>
+
+          <ul class="hc-hosting-list">
+            <li><strong>Projetos ilimitados</strong> ativos.</li>
+            <li><strong>MB ilimitado</strong> dentro do uso justo.</li>
+            <li>Suporte prioritário em fila VIP.</li>
+            <li>Consultoria periódica de estrutura digital.</li>
+            <li>Possibilidade de ambientes de teste / staging.</li>
+          </ul>
+
+          <button class="hc-btn-hosting" data-plan="Extreme">
+            Quero esse plano
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <!-- PLANOS DE SITES / LANDINGS -->
+    <section class="hc-section" id="planos-sites">
+      <div class="hc-section-header hc-reveal">
+        <span class="hc-section-kicker">planos de criação</span>
+        <h2 class="hc-section-title">
+          Planos para colocar seu site certo no ar sem complicação.
+        </h2>
+        <p class="hc-section-sub">
+          Valores de referência para você ter uma base. Cada projeto é
+          ajustado de acordo com o que realmente faz sentido para sua
+          realidade.
+        </p>
+      </div>
+
+      <div class="hc-plans-grid">
+        <!-- Plano Landing Start -->
+        <article class="hc-plan-card hc-reveal">
+          <div class="hc-plan-label">Começo certo</div>
+          <h3 class="hc-plan-title">Landing Start</h3>
+          <p class="hc-plan-sub">Para validar uma ideia, serviço ou produto.</p>
+
+          <div class="hc-plan-price">
+            <span class="hc-plan-value">R$ 299</span>
+            <span class="hc-plan-cycle">/ projeto</span>
+          </div>
+
+          <ul class="hc-plan-list">
+            <li>Landing page responsiva.</li>
+            <li>Layout premium escuro ou claro.</li>
+            <li>Integração com WhatsApp.</li>
+            <li>Até 2 sessões de ajustes após a entrega.</li>
+            <li>Preparado para receber tráfego pago.</li>
+          </ul>
+
+          <button class="hc-btn-plan" data-plan="Landing Start">
+            Quero esse plano
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </article>
+
+        <!-- Plano Site Pro -->
+        <article class="hc-plan-card hc-plan-card--highlight hc-reveal">
+          <div class="hc-plan-label hc-plan-label--highlight">Mais recomendado</div>
+          <h3 class="hc-plan-title">Site Pro</h3>
+          <p class="hc-plan-sub">Para empresas que querem presença sólida.</p>
+
+          <div class="hc-plan-price">
+            <span class="hc-plan-value">R$ 599</span>
+            <span class="hc-plan-cycle">/ projeto</span>
+          </div>
+
+          <ul class="hc-plan-list">
+            <li>Até 5 páginas (Home, Sobre, Serviços, Depoimentos, Contato).</li>
+            <li>Formulários integrados ao e-mail e WhatsApp.</li>
+            <li>Estrutura pensada para SEO.</li>
+            <li>Configuração de domínio e SSL.</li>
+            <li>Até 3 sessões de ajustes.</li>
+          </ul>
+
+          <button class="hc-btn-plan" data-plan="Site Pro">
+            Quero esse plano
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </article>
+
+        <!-- Plano Full Presença -->
+        <article class="hc-plan-card hc-reveal">
+          <div class="hc-plan-label">Presença completa</div>
+          <h3 class="hc-plan-title">Full Presença</h3>
+          <p class="hc-plan-sub">Site completo + landing específica de campanha.</p>
+
+          <div class="hc-plan-price">
+            <span class="hc-plan-value">R$ 899</span>
+            <span class="hc-plan-cycle">/ projeto</span>
+          </div>
+
+          <ul class="hc-plan-list">
+            <li>Site institucional completo.</li>
+            <li>1 landing exclusiva para oferta principal.</li>
+            <li>Bot de WhatsApp conectado à estratégia.</li>
+            <li>Integração pixel / tags.</li>
+            <li>Material de orientação de uso.</li>
+          </ul>
+
+          <button class="hc-btn-plan" data-plan="Full Presença">
+            Quero esse plano
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="hc-section hc-section-alt" id="diferenciais">
+      <div class="hc-section-header hc-reveal">
+        <span class="hc-section-kicker">por que a hora certa projetos</span>
+        <h2 class="hc-section-title">
+          Não é só sobre ter um site, é sobre ter o site certo.
+        </h2>
+      </div>
+
+      <div class="hc-diffs-grid">
+        <article class="hc-diff-card hc-reveal">
+          <h3><i class="fa-regular fa-circle-check"></i> Linguagem simples</h3>
+          <p>
+            Explicamos tudo que está sendo feito, sem termos técnicos
+            desnecessários. Você entende o que está pagando.
+          </p>
+        </article>
+
+        <article class="hc-diff-card hc-reveal">
+          <h3><i class="fa-solid fa-layer-group"></i> Estrutura pensada</h3>
+          <p>
+            Páginas organizadas para guiar o visitante até contato, orçamento ou
+            compra, sem se perder em menus e pop-ups.
+          </p>
+        </article>
+
+        <article class="hc-diff-card hc-reveal">
+          <h3><i class="fa-solid fa-gauge-high"></i> Performance</h3>
+          <p>
+            Priorizamos páginas leves, rápidas e pensadas para o celular,
+            que é onde a maioria das pessoas acessa.
+          </p>
+        </article>
+
+        <article class="hc-diff-card hc-reveal">
+          <h3><i class="fa-solid fa-plug-circle-check"></i> Integrações certas</h3>
+          <p>
+            WhatsApp, e-mail, formulários, tags, pixel… Ligamos os pontos para
+            que o site trabalhe junto com seu marketing.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- TECNOLOGIAS -->
+    <section class="hc-section" id="tecnologias">
+      <div class="hc-section-header hc-reveal">
+        <span class="hc-section-kicker">tecnologias</span>
+        <h2 class="hc-section-title">Ferramentas que usamos nos bastidores.</h2>
+        <p class="hc-section-sub">
+          Escolhemos tecnologias confiáveis e atuais, pensando em estabilidade,
+          segurança e custo-benefício.
+        </p>
+      </div>
+
+      <div class="hc-tech-grid hc-reveal">
+        <div class="hc-tech-item">
+          <span class="hc-tech-label">Frontend</span>
+          <p>HTML5, CSS3, JavaScript moderno, boas práticas de responsividade.</p>
+        </div>
+        <div class="hc-tech-item">
+          <span class="hc-tech-label">Infra</span>
+          <p>Hospedagem otimizada, SSL, DNS configurado corretamente.</p>
+        </div>
+        <div class="hc-tech-item">
+          <span class="hc-tech-label">Integrações</span>
+          <p>WhatsApp, formulários, e-mail, pixel, tags de conversão.</p>
+        </div>
+        <div class="hc-tech-item">
+          <span class="hc-tech-label">Automações</span>
+          <p>Fluxos para receber, qualificar e organizar contatos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS (PLACEHOLDER) -->
+    <section class="hc-section hc-section-alt" id="depoimentos">
+      <div class="hc-section-header hc-reveal">
+        <span class="hc-section-kicker">confiança</span>
+        <h2 class="hc-section-title">Depoimentos & resultados</h2>
+      </div>
+
+      <div class="hc-testimonials-grid">
+        <article class="hc-testimonial-card hc-reveal">
+          <p class="hc-testimonial-text">
+            Trabalhar com o José foi uma das melhores coisas que eu já fiz. Foi ele quem me ajudou a alcançar todo esse sucesso com a empresa MRO Online.
+
+            Ele é muito fera no que faz: cuidou de toda a parte de programação pra mim e sempre resolve tudo o que eu preciso, sem dor de cabeça.
+
+            Só tenho a agradecer pelos serviços prestados e recomendo de coração o trabalho dele.
+          </p>
+          <p class="hc-testimonial-name">Gabriel MRO</p>
+          <p class="hc-testimonial-role">Mais Resultado Online / Rio Grande do Sul</p>
+        </article>
+
+        <article class="hc-testimonial-card hc-reveal">
+          <p class="hc-testimonial-text">
+            Cara, fazer esse site foi bom demais. A landing page ficou bem organizada, bonita e muito fácil de usar, ajudou demais a mostrar os produtos do hortifruti de um jeito mais profissional.
+
+O bot de WhatsApp então, ajudou muito no dia a dia. Facilitou o atendimento, respondeu os clientes mais rápido e deixou tudo mais prático na hora de fazer pedidos.
+
+Depois do site e do bot, deu pra sentir muita diferença no atendimento e na organização do negócio. Curti demais o resultado e recomendo sem medo.
+          </p>
+          <p class="hc-testimonial-name">Estevão</p>
+          <p class="hc-testimonial-role">Hortifruti / Rio Grande do Sul</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROCESSO -->
+    <section class="hc-section" id="processo">
+      <div class="hc-section-header hc-reveal">
+        <span class="hc-section-kicker">nosso fluxo</span>
+        <h2 class="hc-section-title">Um processo simples para tirar seu projeto do papel.</h2>
+      </div>
+
+      <div class="hc-process-grid">
+        <article class="hc-process-step hc-reveal">
+          <span class="hc-step-number">01</span>
+          <h3>Briefing rápido</h3>
+          <p>
+            Você explica o que faz, como vende hoje e qual tipo de site faz
+            sentido nesse momento.
+          </p>
+        </article>
+
+        <article class="hc-process-step hc-reveal">
+          <span class="hc-step-number">02</span>
+          <h3>Proposta e alinhamento</h3>
+          <p>
+            Apresentamos o formato que mais se encaixa, valores e prazos. Tudo
+            de forma transparente.
+          </p>
+        </article>
+
+        <article class="hc-process-step hc-reveal">
+          <span class="hc-step-number">03</span>
+          <h3>Construção e prévia</h3>
+          <p>
+            Montamos a estrutura, organizamos o conteúdo e enviamos uma prévia
+            para ajustes.
+          </p>
+        </article>
+
+        <article class="hc-process-step hc-reveal">
+          <span class="hc-step-number">04</span>
+          <h3>Publicação + suporte</h3>
+          <p>
+            Colocamos no ar, conectamos tudo e seguimos com suporte ou
+            manutenção, se for o caso.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ORÇAMENTO -->
+    <section class="hc-section" id="orcamento">
+      <div class="hc-section-header hc-reveal">
+        <span class="hc-section-kicker">orçamento</span>
+        <h2 class="hc-section-title">Preencha uma vez, e a gente continua pelo canal que você preferir.</h2>
+        <p class="hc-section-sub">
+          Esse formulário envia as informações tanto para o e-mail (para você
+          ter registro) quanto para o WhatsApp (para agilizar a conversa).
+        </p>
+      </div>
+
+      <div class="hc-orcamento-grid">
+        <form class="hc-orcamento-form hc-reveal" id="orcamentoForm">
+          <div class="hc-field-group">
+            <label for="nome">Seu nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Como prefere ser chamado(a)?" required />
+          </div>
+
+          <div class="hc-field-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Para receber a proposta completa" required />
+          </div>
+
+          <div class="hc-field-group">
+            <label for="whatsapp">WhatsApp</label>
+            <input type="tel" id="whatsapp" name="whatsapp" placeholder="(DDD) 9 9999-9999" required />
+          </div>
+
+          <div class="hc-field-group">
+            <label for="tipoProjeto">Tipo de projeto</label>
+            <select id="tipoProjeto" name="tipoProjeto" required>
+              <option value="">Selecione...</option>
+              <option value="Landing Page">Landing Page</option>
+              <option value="Site Completo">Site Completo</option>
+              <option value="Landing + Site">Landing + Site</option>
+              <option value="Hospedagem & Manutenção">Hospedagem & Manutenção</option>
+              <option value="Bot / Automação WhatsApp">Bot / Automação WhatsApp</option>
+              <option value="Pacote Completo">Pacote Completo</option>
+            </select>
+          </div>
+
+          <div class="hc-field-group">
+            <label for="orcamentoFaixa">Faixa de investimento prevista</label>
+            <select id="orcamentoFaixa" name="orcamentoFaixa" required>
+              <option value="">Selecione...</option>
+              <option value="Até R$ 300">Até R$ 300</option>
+              <option value="R$ 300 a R$ 600">R$ 300 a R$ 600</option>
+              <option value="R$ 600 a R$ 1.000">R$ 600 a R$ 1.000</option>
+              <option value="Acima de R$ 1.000">Acima de R$ 1.000</option>
+            </select>
+          </div>
+
+          <div class="hc-field-group hc-field-full">
+            <label for="mensagem">Conte um pouco do que você precisa</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Me fala um pouco sobre seu negócio, o que você já tem hoje e o que espera com esse projeto." required></textarea>
+          </div>
+
+          <p class="hc-orcamento-note">
+            Ao enviar, abrimos uma conversa no WhatsApp com a mensagem pronta
+            e os dados também podem ser enviados para o e-mail cadastrado no backend.
+          </p>
+
+          <div class="hc-orcamento-actions">
+            <button type="submit" class="hc-btn-primary">
+              Enviar e abrir no WhatsApp
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+
+        <aside class="hc-orcamento-info hc-reveal">
+          <h3>Como usamos essas informações</h3>
+          <p>
+            É um primeiro filtro para entender em que momento você está e
+            evitar aquela troca infinita de mensagens sem sair do lugar.
+          </p>
+
+          <ul class="hc-list">
+            <li>Você recebe a proposta de forma organizada.</li>
+            <li>Nada de spam ou mensagens desnecessárias.</li>
+            <li>Você pode responder quando fizer sentido para você.</li>
+          </ul>
+
+          <p class="hc-note">
+            Se preferir, você também pode chamar direto pelo botão de WhatsApp
+            na parte de contato, sem preencher o formulário.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- CONTATO DIRETO -->
+    <section class="hc-section hc-contact-section" id="contato">
+      <div class="hc-contact-card hc-reveal">
+        <h2>Prefere resolver direto no WhatsApp?</h2>
+        <p>
+          Sem problema. Me chama, manda um áudio, texto ou print de algo que
+          você gostou e a gente monta o formato ideal para o seu momento.
+        </p>
+
+        <div class="hc-contact-actions">
+          <button class="hc-btn-whatsapp" id="btnWhats">
+            Abrir conversa no WhatsApp
+            <i class="fa-brands fa-whatsapp"></i>
+          </button>
+          <span class="hc-contact-hint">
+            Resposta humana, sem robô. Se eu não responder na hora, eu te retorno.
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="hc-section hc-section-alt hc-final-cta">
+      <div class="hc-final-cta-inner hc-reveal">
+        <h2>É a hora certa de estruturar seu projeto no digital.</h2>
+        <p>
+          Em vez de adiar e continuar só nas redes sociais, vamos construir uma
+          base que passa confiança e trabalha a seu favor todos os dias.
+        </p>
+
+        <div class="hc-final-cta-actions">
+          <a href="#orcamento" class="hc-btn-primary">
+            Preencher formulário de orçamento
+            <i class="fa-solid fa-pen-to-square"></i>
+          </a>
+          <button class="hc-btn-secondary" id="btnFinalWhats">
+            Falar direto comigo
+            <i class="fa-brands fa-whatsapp"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="hc-footer">
+    <div class="hc-footer-inner">
+      <p>
+        © 2025 Hora Certa Projetos • Criação de sites, landing pages, automação
+        e hospedagem gerenciada.
+      </p>
+      <p class="hc-footer-sub">
+        Parte do ecossistema Hora Certa Store.
+      </p>
+    </div>
+  </footer>
+
+  <!-- JS externo -->
+  <script src="scripts/script.js"></script>
+</body>
+</html>
