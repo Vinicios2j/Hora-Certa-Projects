@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   // ========== WHATSAPP BUTTONS ==========
-  const whatsappNumber = '5511999999999'; // SUBSTITUA PELO SEU NÚMERO
+  const whatsappNumber = '5521999287921'; // SUBSTITUA PELO SEU NÚMERO
   
   function openWhatsApp(message = '') {
     const encodedMessage = encodeURIComponent(message);
@@ -237,3 +237,4 @@ window.addEventListener('load', function() {
 });
 
 // FIM DO SCRIPT
+
